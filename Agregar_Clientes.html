@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<script src="JS/jquery-3.2.1.min.js"></script>
+<script src="JS/Insertar.js" type="text/javascript"></script>
+<script src="JS/Validacion.js" type="text/javascript"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Agregar cliente</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="shortcut icon" href="Media/" type="image/x-icon">
+    <link rel="icon" href="Media/logo.ico" type="image/x-icon">
+    <link href="CSS/blogPostStyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/slider.css">
+    <script>
+        var __adobewebfontsappname__ = "dreamweaver"
+    </script>
+    <script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+    <div id="mainwrapper">
+        <header>
+            <div id="logo">
+                <img src="Media/logo.ico" alt="sample logo" width="20">
+                <a href="home.php" style="text-decoration: none; color: #ffffff;">WonderCircus</a>
+            </div>
+            <nav>
+                <a href="Gestionar_Eventos.html" title="Link">Eventos</a>
+                <a href="Agregar_Clientes.html" title="Link">Clientes</a>
+                <a href="Gestionar_Empleado.html" title="Link">Empleados</a>
+                <a href="Agregar_Paquete.html" title="Link">Paquetes</a>
+                <a href="home.php" title="Link" target="_blank">Mi Sitio</a>
+            </nav>
+        </header>
+    </div>
+</head>
+
+<h1>
+    <p align="center">Agregar cliente</p>
+</h1>
+
+<body>
+    <fieldset>
+        <form id='frmajax' method='POST'>
+            <input type='email' name='emailCte' id='emailCte' class='cuadro' placeholder='Correo' required attern="[A-Za-z0-9]{5,40}"> <br>
+            <input type='text' name='nomCte' id='nomCte' class='cuadro' placeholder='Nombre'> <br>
+            <input type='text' name='apellidoPCte' id='apellidoPCte' class='cuadro' placeholder='Apellido paterno'> <br>
+            <input type='text' name='apellidoMCte' id='apellidoMCte' class='cuadro' placeholder='Apellido materno'> <br>
+            <input type='tel' name='telefonoCte' id='telefonoCte' class='cuadro' placeholder='telefono'> <br>
+            <input type='password' name='contrasenaCte' id='contrasenaCte' class='cuadro' placeholder='Contraseña'> <br>
+            <button id="btn_guardar_cliente">Registrarce</button>
+        </form>
+        <form action="/action_page.php">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <input type="submit">
+        </form>
+    </fieldset>
+</body>
+
+</html>

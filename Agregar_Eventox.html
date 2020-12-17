@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<script src="JS/jquery-3.2.1.min.js"></script>
+<script src="JS/Insertar.js" type="text/javascript"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Agregar pago Evento</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="shortcut icon" href="Media/" type="image/x-icon">
+    <link rel="icon" href="Media/logo.ico" type="image/x-icon">
+    <link href="CSS/blogPostStyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/slider.css">
+    <script>
+        var __adobewebfontsappname__ = "dreamweaver"
+    </script>
+    <script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+    <div id="mainwrapper">
+        <header>
+            <div id="logo">
+                <img src="Media/logo.ico" alt="sample logo" width="20">
+                <a href="home.php" style="text-decoration: none; color: #ffffff;">WonderCircus</a>
+            </div>
+            <nav>
+                <a href="Gestionar_Eventos.html" title="Link">Eventos</a>
+                <a href="Agregar_Clientes.html" title="Link">Clientes</a>
+                <a href="Gestionar_Empleado.html" title="Link">Empleados</a>
+                <a href="Agregar_Paquete.html" title="Link">Paquetes</a>
+                <a href="home.php" title="Link" target="_blank">Mi Sitio</a>
+            </nav>
+        </header>
+    </div>>
+</head>
+<h1>
+    <p align="center">Agregar pago Evento</p>
+</h1>
+
+<body>
+    <fieldset>
+
+        <form id='frmajax' method='POST'>
+            <input type='text' name='idEvt' id='idEvt' class='cuadro' placeholder='idEvt'> <br>
+            <input type='text' name='idPte' id='idPte' class='cuadro' placeholder='idPte'> <br>
+            <input type='text' name='emailEmp' id='emailEmp' class='cuadro' placeholder='emailEmp'> <br>
+            <input type='number' name='pago' id='pago' class='cuadro' placeholder='pago'> <br>
+            <button id='btn_guardar_pago'>Guardar</button>
+        </form>
+    </fieldset>
+</body>
+
+</html>

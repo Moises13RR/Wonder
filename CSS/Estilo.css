@@ -1,0 +1,79 @@
+html {
+    background: url(../Media/Gestionar_Evento.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.boton_personalizado {
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #072f49;
+    text-align: center;
+    background-color: #b41fa073;
+    border-radius: 6px;
+    border: 2px solid #538af100;
+}
+
+.boton_personalizado:hover {
+    color: #05202e;
+    background-color: #ffffff48;
+}
+
+fieldset {
+    background-color: #eeeeee;
+    /*display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;*/
+    margin: auto;
+    width: max-content;
+    height: max-content;
+    background-color: #ffffff75;
+    border-radius: 10%;
+    border-color: transparent;
+}
+
+.cuadro {
+    border-radius: 5px;
+    background-color: #def;
+    border: 1px solid #39c;
+    height: 30px;
+    width: 265px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+}
+
+.cuadro2 {
+    border-radius: 5px;
+    background-color: #def;
+    border: 1px solid #39c;
+    height: 30px;
+    min-width: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+}
+
+.error {
+    border-radius: 5px;
+    background-color: rgba(211, 53, 53, 0);
+    border: 1px solid #39c;
+    height: 30px;
+    width: 265px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90%;
+    border: thick double #FF0000;
+    /*border-color: #ff0000;*/
+}
+
+
+/*legend {
+    background-color: rgba(128, 128, 128, 0);
+    color: rgba(255, 255, 255, 0)255, 255, 255, 0);
+}*/

@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<script src="JS/jquery-3.2.1.min.js"></script>
+<script src="JS/Insertar.js" type="text/javascript"></script>
+<script src="JS/Validacion.js" type="text/javascript"></script>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Agregar Eventos</title>
+    <link rel="stylesheet" href="CSS/Estilo.css">
+    <link rel="shortcut icon" href="Media/" type="image/x-icon">
+    <link rel="icon" href="Media/logo.ico" type="image/x-icon">
+    <link href="CSS/blogPostStyle.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="CSS/slider.css">
+    <script>
+        var __adobewebfontsappname__ = "dreamweaver"
+    </script>
+    <script src="http://use.edgefonts.net/montserrat:n4:default;source-sans-pro:n2:default.js" type="text/javascript"></script>
+    <div id="mainwrapper">
+        <header>
+            <div id="logo">
+                <img src="Media/logo.ico" alt="sample logo" width="20">
+                <a href="home.php" style="text-decoration: none; color: #ffffff;">WonderCircus</a>
+            </div>
+            <nav>
+                <a href="Gestionar_Eventos.html" title="Link">Eventos</a>
+                <a href="Agregar_Clientes.html" title="Link">Clientes</a>
+                <a href="Gestionar_Empleado.html" title="Link">Empleados</a>
+                <a href="Agregar_Paquete.html" title="Link">Paquetes</a>
+                <a href="home.php" title="Link" target="_blank">Mi Sitio</a>
+            </nav>
+        </header>
+    </div>
+
+
+
+
+</head>
+
+<h1>
+    <p align="center">Agregar Eventos</p>
+</h1>
+
+<body>
+    <fieldset>
+        <form id="frmajax" method="POST">
+            <input type="email" required name="emailCte" id="emailCte" class="cuadro" placeholder="Correo Cliente"> <br>
+            <input type="text" required name="ciudad" id="ciudad" class="cuadro" placeholder="Ciudad"> <br>
+            <input type="text" required name="calle" id="calle" class="cuadro" placeholder="Calle"> <br>
+            <input type="text" required name="col" id="col" class="cuadro" placeholder="Colonia"> <br>
+            <input type="number" required name="num" id="num" class="cuadro" style="width: 70px;" placeholder="Numero">
+            <input type="datetime-local" required name="fechaHora" id="fechaHora" class="cuadro" style="width: 188px;" placeholder="Fecha y Hora"> <br>
+            <input type="number" required name="costo" id="costo" class="cuadro" placeholder="Costo"> <br>
+            <input type="number" required name="anticipo" id="anticipo" class="cuadro" placeholder="Anticipo"> <br>
+            <input type="number" required name="cantemptotal" id="cantemptotal" class="cuadro" placeholder="Total"> <br>
+            <input type=" text " name="edo" id="edo" class="cuadro" placeholder="Edo"> <br>
+            <input type="number" name="edoAct" id="edoAct" class="cuadro " placeholder="Edo Act "> <br>
+            <button id="btn_guardar_evento">Guardar datos</button>
+        </form>
+    </fieldset>
+    <form>
+        <p align="center ">
+            <input class="boton_personalizado" type="button " onclick="window.location.href='Gestionar_Eventos.HTML' ; " value="Gestionar Eventos " />
+        </p>
+    </form>
+
+</body>
+
+</html>
